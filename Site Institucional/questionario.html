@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/questionario.css">
+    <script src="./js/questionario.js"></script>
+    <title>Questionário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="home.html"><h1>C<img src="./imgs/logo.png">FFEEL</h1></a>
+        </div>
+        
+        <div class="tituloQuest">
+            <h2>QUESTIONÁRIO</h2>
+        </div>
+
+        <div class="containerPerguntas">
+            <div class="pergunta" id="idade">
+                <div class="textoPergunta">
+                    <h2>1 - Qual a sua idade?</h2>
+                </div>
+
+                <div class="inputs">
+                    <input id="inpt_idadeUsuario">
+                </div>
+            </div>
+
+            <div class="pergunta" id="cafeEssencial" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>2 - O café é essencial na sua vida?</h2>
+                </div>
+
+                <form class="inputs" id="essencial">
+                    <div class="ordemRadio">
+                        <input type="radio" name="cafe" value="sim">
+                        <p>Sim</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="cafe" value="não">
+                        <p>Não</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="pergunta" id="ondeTomoCafe" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>3 - Onde você costuma tomar o café?</h2>
+                </div>
+
+                <form class="inputs" id="lugarQueTomo">
+                    <div class="ordemRadio">
+                        <input type="radio" name="lugar" value="casa">
+                        <p>Casa</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="lugar" value="trabalho">
+                        <p>Trabalho</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="lugar" value="cafeterias">
+                        <p>Cafeterias</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="lugar" value="outro">
+                        <p>Outro</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="pergunta" id="qtdXicaras" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>4 - Quantas xícaras de café você toma por dia?</h2>
+                </div>
+
+                <div class="inputs">
+                    <input id="inpt_qtdCafesDia">
+                </div>
+            </div>
+
+            <div class="pergunta" id="cafeMaisTomo" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>5 - Que tipo de café você mais toma?</h2>
+                </div>
+
+                <form class="inputs" id="tipoDoCafe">
+                    <div class="ordemRadio">
+                        <input type="radio" name="tipo" value="coado">
+                        <p>Coado</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="tipo" value="expresso">
+                        <p>Expresso</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="tipo" value="soluvel">
+                        <p>Solúvel</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="tipo" value="outro">
+                        <p>Outro</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="pergunta" id="cafeGelado" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>6 - Você gosta mais do café:</h2>
+                </div>
+
+                <form class="inputs" id="temperatura">
+                    <div class="ordemRadio">
+                        <input type="radio" name="gosto" value="gelado">
+                        <p>Gelado</p>
+                    </div>
+                    <div class="ordemRadio">
+                        <input type="radio" name="gosto" value="quente">
+                        <p>Quente</p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="pergunta" id="gastoCafe" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>7 - Quanto você gasta com café por mês?</h2>
+                </div>
+
+                <div class="inputs">
+                    <input id="inpt_valorCafeMes">
+                </div>
+            </div>
+
+            <div class="pergunta" id="porqueTomo" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>8 - Por que você consome café?</h2>
+                </div>
+
+                <form class="inputs" id="motivoQueTomo">
+                    <div class="divisao">
+                        <div class="ordemRadio">
+                            <input type="radio" name="motivo" value="energia">
+                            <p>Energia/Disposição</p>
+                        </div>
+                        <div class="ordemRadio">
+                            <input type="radio" name="motivo" value="sabor">
+                            <p>Sabor</p>
+                        </div>
+                    </div>
+                    <div class="divisao">
+                        <div class="ordemRadio">
+                            <input type="radio" name="motivo" value="experienciasSociais">
+                            <p>Experiências Sociais</p>
+                        </div>
+                        <div class="ordemRadio">
+                            <input type="radio" name="motivo" value="confortoEmocional">
+                            <p>Conforto Emocional</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <button id="btnProximaPergunta" class="btnProxPergunta" onclick="proximaPergunta()">
+                <p>Próxima Pergunta</p>
+            </button>
+
+            <button id="btnEnviarQuest" sty class="btnEnviar" onclick="enviarQuestionario()">
+                <p>ENVIAR</p>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

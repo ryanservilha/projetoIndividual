@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <script src="./js/quis.js"></script>
+    <title>QUIZ COFFEEL</title>
+</head>
+
+<body>
+    <div class="container" id="body">
+        <div class="logo">
+            <a href="home.html">
+                <h1>C<img src="./imgs/logo.png">FFEEL</h1>
+            </a>
+        </div>
+        <div class="titulo">
+            <h2>Você é realmente um amante de café?</h2>
+        </div>
+
+        <div class="containerPerguntas">
+            <div class="pergunta" id="pergunta1">
+                <div class="textoPergunta">
+                    <h2>1 - Qual é o café expresso?</h2>
+                </div>
+
+                <form class="fotosCafe" id="form1">
+                    <label for="opcao1">
+                        <div class="cardCafe" id="teste">
+                            <input type="radio" name="cafeEspresso" id="opcao1" value="errado">
+                            <img src="./imgs/coado.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao2">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeEspresso" id="opcao2" value="certo">
+                            <img src="./imgs/espresso.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao3">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeEspresso" id="opcao3" value="errado">
+                            <img src="./imgs/coldBrew.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao4">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeEspresso" id="opcao4" value="errado">
+                            <img src="./imgs/cafeCmLeite.jpg">
+                        </div>
+                    </label>
+                </form>
+                </form>
+            </div>
+
+            <div class="pergunta" id="pergunta2" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>2 - Qual é o café coado?</h2>
+                </div>
+
+                <form id="form2" class="fotosCafe">
+                    <label for="opcao5">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeCoado" id="opcao5" value="errado">
+                            <img src="./imgs/opFrape.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao6">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeCoado" id="opcao6" value="errado">
+                            <img src="./imgs/opExpresso.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao7">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeCoado" id="opcao7" value="certo">
+                            <img src="./imgs/coado.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao8">
+                        <div class="cardCafe">
+                            <input type="radio" name="cafeCoado" id="opcao8" value="errado">
+                            <img src="./imgs/opMatcha.jpg">
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="pergunta" id="pergunta3" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>3 - Qual é o Cold Brew</h2>
+                </div>
+
+                <form id="form3" class="fotosCafe">
+                    <label for="opcao9">
+                        <div class="cardCafe">
+                            <input type="radio" name="coldBrew" id="opcao9" value="errado">
+                            <img src="./imgs/cafeCmLeite.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao10">
+                        <div class="cardCafe">
+                            <input type="radio" name="coldBrew" id="opcao10" value="certo">
+                            <img src="./imgs/coldBrew.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao11">
+                        <div class="cardCafe">
+                            <input type="radio" name="coldBrew" id="opcao11" value="errado">
+                            <img src="./imgs/cappucino.JPG">
+                        </div>
+                    </label>
+                    <label for="opcao12">
+                        <div class="cardCafe">
+                            <input type="radio" name="coldBrew" id="opcao12" value="errado">
+                            <img src="./imgs/afogato.jpg">
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="pergunta" id="pergunta4" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>4 - Qual o ingrediente chave do Affogato?</h2>
+                </div>
+
+                <form id="form4" class="fotosCafe">
+                    <label for="opcao13">
+                        <div class="cardCafe">
+                            <input type="radio" name="affogato" id="opcao13" value="errado">
+                            <img src="./imgs/opCreme.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao14">
+                        <div class="cardCafe">
+                            <input type="radio" name="affogato" id="opcao14" value="errado">
+                            <img src="./imgs/opPacoca.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao15">
+                        <div class="cardCafe">
+                            <input type="radio" name="affogato" id="opcao15" value="errado">
+                            <img src="./imgs/opNutella.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao16">
+                        <div class="cardCafe">
+                            <input type="radio" name="affogato" id="opcao16" value="certo">
+                            <img src="./imgs/opSorvete.JPG">
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="pergunta" id="pergunta5" style="display: none;">
+                <div class="textoPergunta">
+                    <h2>5 - Qual é o Frappucino?</h2>
+                </div>
+
+                <form id="form5" class="fotosCafe">
+                    <label for="opcao17">
+                        <div class="cardCafe">
+                            <input type="radio" name="frape" id="opcao17" value="errado">
+                            <img src="./imgs/opMatcha.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao18">
+                        <div class="cardCafe">
+                            <input type="radio" name="frape" id="opcao18" value="errado">
+                            <img src="./imgs/espresso.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao19">
+                        <div class="cardCafe">
+                            <input type="radio" name="frape" id="opcao19" value="certo">
+                            <img src="./imgs/frappucino.jpg">
+                        </div>
+                    </label>
+                    <label for="opcao20">
+                        <div class="cardCafe">
+                            <input type="radio" name="frape" id="opcao20" value="errado">
+                            <img src="./imgs/opNutella.jpg">
+                        </div>
+                    </label>
+                </form>
+            </div>
+
+            <div class="btnProxima">
+                <button id="btnProximaPergunta" onclick="proximaPergunta()">Próxima pergunta</button>
+                <button id="btnVerResultado" onclick="verResultado()">Ver Resultado</button>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>

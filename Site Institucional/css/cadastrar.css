@@ -15,9 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 93%;
     height: fit-content;
     margin: 50px;
+    margin-top: 2.7%;
 }
 
 .logo {
@@ -50,12 +52,12 @@ body {
 .painelCadastro img {
     filter: saturate(1.25);
     width: 43%;
-    height: 500px;
+    height: 537px;
 }
 
 .itensCadastro {
     width: 100%;
-    height: 68.5vh;
+    height: 73.5vh;
     background-color: #E1D6BB;
     display: flex;
     flex-direction: column;
@@ -90,9 +92,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;    
-    height: 49%;
+    height: 80%;
     width: 100%;
-    gap: 10%;
+    gap: 1.5%;
 }
 
 .inserirDados {
@@ -115,7 +117,7 @@ body {
 
 .inserirDados .input input{
     width: 37vh;
-    height: 6vh;
+    height: 5.5vh;
     padding: 10px;
     font-size: 16px;
     border-radius: 7px;
@@ -140,7 +142,7 @@ body {
 
 .botao button {
     width: 28%;
-    height: 32%;
+    height: 37%;
     background-color: #4a1901;
     color: white;
     text-transform: uppercase;
