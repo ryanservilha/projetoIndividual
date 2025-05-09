@@ -356,9 +356,10 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    
+
 }
-.botaoQuestionario:hover  {
+
+.botaoQuestionario:hover {
     box-shadow: 0 1px 5px #ffa10982;
     transform: scale(1.01);
 }
@@ -376,7 +377,7 @@ body {
 /* ------------------------------------------ FORMAS ---------------------------------------------------- */
 
 .formas {
-    width: 100%;    
+    width: 100%;
     height: 100vh;
     background-color: #E1D6BB;
     display: flex;
@@ -460,4 +461,95 @@ body {
     font-weight: 460;
     font-size: 17px;
     color: white;
+}
+
+/* ------------------------------------------ CONEXÃO ---------------------------------------------------- */
+
+.conexao {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imgs/meninas.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.containerConexao {
+    width: 95%;
+    height: 90%;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloConexao {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloConexao h2 {
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+    background-color: #391C01;
+    width: 16%;
+    height: 45%;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.fotoTexto {
+    width: 70%;
+    height: 70%;
+    background-color: #391C01;
+    border-radius: 12px;
+    box-shadow: 2px 2px 15px 4px #8d7054b1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 7%;
+}
+
+.fotoRyan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.fotoRyan img {
+    width: 45vh;
+    height: 48vh;
+    object-fit: cover;
+    filter: saturate(1.15);
+}
+
+.textoConexao {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start; 
+    justify-content: center;
+    margin-right: 5%;
+    gap: 4%;
+}
+
+.textoConexao h2 {
+    color: white;
+    font-weight: 630;
+    font-size: 30px;
+}
+
+.textoConexao p {
+    color: white;
+    line-height: 5vh;
+    font-size: 19px;
 }
