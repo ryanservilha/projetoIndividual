@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+body {
+    background-color: #391C01;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 93%;
+    height: fit-content;
+    margin: 50px;
+    margin-top: 2.7%;
+}
+
+.logo {
+    align-self: flex-start;
+    margin-left: 6.5%;
+}
+
+.logo h1 {
+    color: #E1D6BB;
+    font-weight: 330;
+    font-size: 32px;
+}
+
+.logo h1 img {
+    filter: brightness(90);
+    width: 27px;
+    height: 27px;
+    margin-bottom: 2.5px;
+}
+
+.painelCadastro {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: fit-content;
+    box-shadow: 0 2px 20px #9e522f7e;
+}
+
+.painelCadastro img {
+    filter: saturate(1.25);
+    width: 43%;
+    height: 537px;
+}
+
+.itensCadastro {
+    width: 100%;
+    height: 73.5vh;
+    background-color: #E1D6BB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    height: 23%;
+    line-height: 25px;
+}
+
+.titulo h1 {
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #572600;
+}
+
+.titulo p {
+    font-size: 14px;
+    font-weight: 350;
+    margin-left: 16%;
+    color: #572600;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 80%;
+    width: 100%;
+    gap: 1.5%;
+}
+
+.inserirDados {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
+.inserirDados .input {
+    line-height: 47px;
+}
+
+.inserirDados .input h2 {
+    font-size: 20px;
+    font-weight: 480;
+    color: #572600;
+    margin-left: 2%;
+}
+
+.inserirDados .input input{
+    width: 37vh;
+    height: 5.5vh;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1.7px solid #572600;
+    box-shadow: 0 1px 6px #9e522f7e;
+}
+
+.inserirDados .input input::placeholder { 
+    color: #602102a3;
+}
+
+.botao {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 8vh;
+    margin-top: 2%;
+}
+
+.botao button {
+    width: 28%;
+    height: 37%;
+    background-color: #4a1901;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    font-size: 18px;
+    font-weight: 450;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    box-shadow: 0 1px 5px #9e522f7e;
+}
+
+.botao button:hover {
+    background-color: #602102;
+    transform: scale(1.01);
+}
+
+.botao a {
+    font-size: 14px;
+    color: #4a1901;
+    font-weight: 500;
+}
+
+.botao a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------- API----------- ------------------ */
+
+.loading-div {
+  width: 50px;
+  display: none;
+}
+
+.loading-div img {
+  height: 50px;
+  width: 50px;
+}
+
+#div_erros_login {
+  display: none
+}
+
+/* FORMULARIO */
+
+.alerta_erro{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card_erro {
+  display: none;
+  background-color: #fff;
+  color: black;
+  width: 230px;
+  position: fixed;
+  border-radius: 4px;
+  border: #ED145B 3px solid;
+  padding: 10px;
+  margin-right: 10%;
+}
+
+.card_erro #mensagem_erro{
+  font-weight: 500;
+  font-size: 20px;
+}
+.loading-div {
+  width: 50px;
+  margin: auto;
+  display: none;
+}
+
+.loading-div img {
+  height: 50px;
+  width: 50px;
+}

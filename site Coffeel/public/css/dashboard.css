@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+}
+
+body {
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E1D6BB;
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3%;
+}
+
+.logo {
+    align-self: flex-start;
+    margin-left: 6.5%;
+    width: 100%;
+    height: 0%;
+}
+
+
+.logo h1 {
+    color: #572600;
+    font-weight: 340;
+    font-size: 32px;
+}
+
+.logo h1 img {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 2.5px;
+}
+
+.titulo {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.titulo h2 {
+    color: #663C1C;
+    text-transform: uppercase;
+    font-weight: 450;
+    font-size: 40px;
+}
+
+.containerKpisGraficos {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+    margin-top: 1.5%;
+}
+
+.kpis {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 29%;    
+    justify-content: center;
+    align-items: center;
+    gap: 6%;    
+}
+
+.card {
+    width: 17%;
+    height: 100%;
+    background-color: #572b02;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 550;
+    color: white;
+    text-transform: uppercase;
+    line-height: 2.4vh;
+    margin: 5%;
+}
+
+.resposta {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 550;
+    font-size: 30px;
+    color: #E1D6BB;
+    text-transform: uppercase;
+}
+
+#idadeMedia, #qtdEnvios, #mediaAcertos {
+    font-size: 37px;
+}
+#mediaAcertosCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#mediaAcertosCard h2 {
+    margin-top: 0;
+    width: 80%;
+}
+
+.graficos {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+}
+
+.graficoEsquerdo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 41%;
+    height: 100%;
+}
+
+.graficoEsquerdo h2 {
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 550;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.graficoEsquerdo canvas { 
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 13%;
+}
+
+
+.graficoCafeConsumido canvas {
+    margin-bottom: 5%;
+}
+
+.graficoCafeEssencial {
+    width: 50px;
+    height: 100px;
+}
+
+#graficoCafeEssencial {
+    width: 10px;
+    height: 10px;
+}
+
+.graficosDireito {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    gap: 10%;
+}
+
+.graficosDireito .graficoCafeConsumido h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 8px;
+}
+
+.graficoCafeConsumido {
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+
+
+.graficosPizza {
+    display: flex;
+    flex-direction: row ;
+    width: 100%;
+    height: 50%;
+    gap: 6%;
+} 
+
+.graficosDireito .graficosPizza h2 {
+      text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 650;
+    margin-top: 8px;
+}
+
+.graficoCafeEssencial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.graficoCafeEssencial h2 {
+    text-align: center;
+    width: 80%;
+}
+
+.graficoCafeEssencial, .temperaturaCafe{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+

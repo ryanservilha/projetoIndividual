@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo - Quiz</title>
+    <script src="./js/quiz.js"></script>
+    <link rel="stylesheet" href="./css/quiz.css">
+</head>
+
+
+<body onload="onloadEsconder()">
+
+    <div class="logo">
+        <a href="index.html">
+            <h1>C<img src="./assets/imgs/logo.png">FFEEL</h1>
+        </a>
+    </div>
+    <div id="overlay"></div>
+    <div id="pontuacao">
+        <div class="emCima">
+            <div class="botaoFechar">
+                <button onclick="fecharDetalhe()">X</button>
+            </div>
+            <h2>Resultado:</h2>
+        </div>
+        <div id="pontuacaoDuranteJogo">
+            <div class="textos">
+                <span class="width-fit-content">Quantidade de <b style="color: rgb(0, 195, 0);">acertos:</b> <span
+                        id="spanCertas"></span></span>
+                <span class="width-fit-content">Quantidade de <b style="color: rgb(255, 36, 36);">erros:</b> <span
+                        id="spanErradas"></span></span>
+                <span id="pontuacaoFinal" class="width-fit-content"><b>Pontuação Final:</b>
+                    <span id="spanPontuacaoFinal"></span>
+                </span>
+            </div>
+        </div>
+        <div id="pontuacaoFinalJogo">
+            <span id="msgFinal" class="mensagemFinal"></span>
+        </div>
+    </div>
+    <div class="container">
+        <div class="titulo" id="titulo" style="display: none;">
+            <h2>Você é realmente um amante de café?</h2>
+        </div>
+
+        <div class="painelJogo" id="pontuacaoEJogo">
+
+            <div class="questoes" id="jogo">
+                <div class="tituloJogo">
+                    <div id="infoQuestao">
+                        <span><span id="spanNumeroDaQuestaoAtual"></span>/<span id="qtdQuestoes"></span></span>
+                    </div>
+
+                    <div id="perguntaDaQuestaoAtual">
+                        <span id="spanQuestaoExibida"></span>
+                    </div>
+                </div>
+                <div class="opcoesDiv" id="opcoes">
+                    <span class="cardCafe">
+                        <input type="radio" id="primeiraOpcao" name="option" class="radio" value="alternativaA" />
+                        <label for="primeiraOpcao" class="option" id="labelOpcaoUm">
+                        </label>
+                    </span>
+                    <span class="cardCafe">
+                        <input type="radio" id="segundaOpcao" name="option" class="radio" value="alternativaB" />
+                        <label for="segundaOpcao" class="option" id="labelOpcaoDois"></label>
+                    </span>
+                    <span class="cardCafe">
+                        <input type="radio" id="terceiraOpcao" name="option" class="radio" value="alternativaC" />
+                        <label for="terceiraOpcao" class="option" id="labelOpcaoTres"></label>
+                    </span>
+                    <span class="cardCafe">
+                        <input type="radio" id="quartaOpcao" name="option" class="radio" value="alternativaD" />
+                        <label for="quartaOpcao" class="option" id="labelOpcaoQuatro"></label>
+                    </span>
+                </div>
+            </div>
+
+            <div id="botoes" class="btns">
+                <button onclick="submeter()" id="btnSubmeter">GRAVAR</button>
+                <button onclick="avancar()" id="btnProx" disabled>AVANÇAR</button>
+                <button onclick="tentarNovamente()" id="btnTentarNovamente" disabled>TENTAR NOVAMENTE</button>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <button id="btnIniciarQuest" onclick="iniciarQuest()">INICIAR QUESTIONÁRIO</button>
+            <button id="btnIniciarQuiz" onclick="iniciarQuiz()">INICIAR QUIZ</button>
+        </div>
+    </div>
+</body>
+
+</html>
