@@ -31,5 +31,8 @@ router.get("/graficoEssencial", function (req, res) {
     dashboardController.graficoEssencial(req, res);
 });
 
+router.get("/graficoTemperaturaCafe", function (req, res) {
+    dashboardController.graficoTemperaturaCafe(req, res);
+});
 
 module.exports = router;

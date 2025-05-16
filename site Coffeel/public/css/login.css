@@ -71,6 +71,7 @@ body {
     width: 100%;
     height: 20%;
     line-height: 25px;
+    margin-bottom: 1%;
 }
 
 .titulo h1 {
@@ -116,14 +117,27 @@ body {
 
 .inserirDados .input input {
     width: 70vh;
-    height: 8vh;
+    height: 9vh;
     padding: 10px;
     font-size: 16px;
     border-radius: 7px;
     border: 1.7px solid #572600;
     box-shadow: 0 1px 6px #9e522f7e;
-}   
+}
 
+
+.inserirDados .input input[type="password"] {
+    font-size: 27px;
+    padding: 10px;
+    font-weight: 800;
+}
+
+.inserirDados .input input[type="password"]::placeholder {
+    font-size: 16px;
+    font-weight: normal;
+    color: #602102a3;
+
+}
 
 .inserirDados .input input::placeholder {
     font-size: 16px;
@@ -138,11 +152,12 @@ body {
     align-items: center;
     justify-content: center;
     line-height: 10vh;
+    margin-top: 2%;
 }
 
 .botao button {
     width: 28%;
-    height: 34%;
+    height: 40%;
     background-color: #4a1901;
     color: white;
     text-transform: uppercase;
@@ -172,13 +187,17 @@ body {
 
 /* ------------------------- api ------------------ */
 .loading-div {
+    position: fixed;
     width: 50px;
     display: none;
+    top: 6%;
+    right: 50%;
 }
 
 .loading-div img {
     height: 50px;
     width: 50px;
+    filter:sepia(2);
 }
 
 #div_erros_login {

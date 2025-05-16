@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/cadastrar.css">
     <script src="./js/sessao.js"></script>
+    <script src="js/acesso.js"></script>
     <title>Cadastre-se</title>
 </head>
 
@@ -16,11 +17,7 @@
                 <h1>C<img src="./assets/imgs/logo.png">FFEEL</h1>
             </a>
         </div>
-        <div class="alerta_erro">
-            <div class="card_erro" id="cardErro">
-                <span id="mensagem_erro"></span>
-            </div>
-        </div>
+
         <div class="painelCadastro">
             <img src="./assets/imgs/aerial-view-fresh-coffee-cup.jpg">
             <div class="itensCadastro">
@@ -37,16 +34,6 @@
                         <div class="input">
                             <h2>Email</h2>
                             <input id="inpt_emailCadastro" placeholder="Digite seu email">
-                        </div>
-                    </div>
-                    <div class="inserirDados">
-                        <div class="input">
-                            <h2>CPF</h2>
-                            <input id="inpt_cpf" placeholder="Digite o seu CPF">
-                        </div>
-                        <div class="input">
-                            <h2>Telefone</h2>
-                            <input id="inpt_telefone" placeholder="Digite o seu telefone">
                         </div>
                     </div>
                     <div class="inserirDados">
@@ -72,105 +59,13 @@
                 </div>
             </div>
         </div>
+        <div class="alerta_erro">
+            <div class="card_erro" id="cardErro">
+                <span id="mensagem_erro"></span>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
-<script>
-
-    function cadastrar() {
-        var nomeVar = inpt_nomeCadastro.value;
-        var emailVar = inpt_emailCadastro.value;
-        var cpfVar = inpt_cpf.value;
-        var telefoneVar = inpt_telefone.value;
-        var senhaVar = inpt_senhaCadastro.value;
-        var confirmarSenha = inpt_confirmeSenha.value;
-        var acharArroba = 0;
-        var acharPonto = 0;
-
-        if (nomeVar == '' && emailVar == '' && cpfVar == '' && telefoneVar == '' && senhaVar == '' && confirmarSenha == '') {
-            alert('Insira algum valor em todos os campos!')
-        }
-        else if (cpfVar.length != 11) {
-            alert('CPF Inválido!')
-        }
-        else if (telefoneVar.length != 11) {
-            alert('Telefone Inválido')
-        }
-        else if (confirmarSenha != senhaVar) {
-            alert('As senhas não são similares!')
-        }
-        else if (emailVar.length < 15) {
-            alert('Email muito simples!')
-        }
-        else {
-            for (var i = 0; i <= emailVar.length; i++) {
-                if (emailVar[i] == '@') {
-                    acharArroba++;
-                }
-                if (emailVar[i] == '.') {
-                    acharPonto++;
-                }
-            }
-
-            if (acharArroba > 0 && acharPonto > 0) {
-                setInterval(sumirMensagem, 5000);
-            }
-            else {
-                cardErro.style.display = "block";
-                mensagem_erro.innerHTML =
-                    "(Mensagem de erro para todos os campos em branco)";
-
-                finalizarAguardar();
-                return false;
-            }
-
-
-            fetch("/usuarios/cadastrar", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({
-                    // crie um atributo que recebe o valor recuperado aqui
-                    // Agora vá para o arquivo routes/usuario.js
-                    nomeServer: nomeVar,
-                    emailServer: emailVar,
-                    cpfServer: cpfVar,
-                    telefoneServer: telefoneVar,
-                    senhaServer: senhaVar,
-                }), 
-            })
-                .then(function (resposta) {
-                    console.log("resposta: ", resposta);
-
-                    if (resposta.ok) {
-                        cardErro.style.display = "block";
-
-                        mensagem_erro.innerHTML =
-                            "Cadastro realizado com sucesso! Redirecionando para tela de Login...";
-
-                        setTimeout(() => {
-                            window.location = "login.html";
-                        }, "2000");
-
-                        limparFormulario();
-                        finalizarAguardar();
-                    } else {
-                        throw "Houve um erro ao tentar realizar o cadastro!";
-                    }
-                })
-                .catch(function (resposta) {
-                    console.log(`#ERRO: ${resposta}`);
-                    finalizarAguardar();
-                });
-
-            return false;
-        }
-
-    }
-
-    function sumirMensagem() {
-        cardErro.style.display = "none";
-    }
-</script>

@@ -20,14 +20,18 @@ function cafeMaisConsumido() {
 }
 
 function qtdEnvios() {
-    var instrucaoSql = `SELECT COUNT(DISTINCT fkUsuario) AS QtdEnvios from resposta;`;
+    var instrucaoSql = `SELECT descricao AS Motivo FROM resposta
+    WHERE fkPergunta = 8
+    GROUP BY descricao
+    ORDER BY COUNT(descricao) DESC LIMIT 1;`;
 
     console.log("Executando a instrução SQL: \n" + instrucaoSql);
     return database.executar(instrucaoSql);
 }
 
 function mediaAcertos() {
-    var instrucaoSql = `SELECT ROUND(AVG(pontuacaoQuiz),2) AS MediaPontos FROM usuario;`;
+    var instrucaoSql = `SELECT ROUND(AVG(descricao),2) AS Gasto FROM resposta
+    WHERE fkPergunta = 7;`;
 
     console.log("Executando a instrução SQL: \n" + instrucaoSql);
     return database.executar(instrucaoSql);
@@ -51,18 +55,19 @@ function graficoAmbiente() {
     return database.executar(instrucaoSql);
 }
 
-function graficoAmbiente() {
-    var instrucaoSql = `SELECT descricao AS Ambiente, COUNT(descricao) AS QtdAmbiente FROM resposta 
-    WHERE fkPergunta = 3
+
+function graficoEssencial() {
+    var instrucaoSql = `SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
+    WHERE fkPergunta = 2
     GROUP BY descricao;`;
 
     console.log("Executando a instrução SQL: \n" + instrucaoSql);
     return database.executar(instrucaoSql);
 }
 
-function graficoEssencial() {
+function graficoTemperaturaCafe() {
     var instrucaoSql = `SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
-    WHERE fkPergunta = 2
+    WHERE fkPergunta = 6
     GROUP BY descricao;`;
 
     console.log("Executando a instrução SQL: \n" + instrucaoSql);
@@ -76,5 +81,6 @@ module.exports = {
     mediaAcertos,
     graficoSemana,
     graficoAmbiente,
-    graficoEssencial
+    graficoEssencial,
+    graficoTemperaturaCafe
 };

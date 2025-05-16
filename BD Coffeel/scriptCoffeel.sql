@@ -1,7 +1,6 @@
 CREATE DATABASE coffeel;
-
 USE coffeel;
- 
+
 CREATE TABLE quiz (
 	idQuiz INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(45),
@@ -43,8 +42,6 @@ CREATE TABLE usuario (
     fkQuiz INT,
     nome VARCHAR(45),
     email VARCHAR(45),
-    cpf CHAR(11),
-    telCelular CHAR(11),
     senha VARCHAR(45),
     pontuacaoQuiz INT,
     dtCadastro DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -57,13 +54,13 @@ CREATE TABLE usuario (
 );
 
 INSERT INTO usuario VALUES
-(default, 1, 1, 'Ryan','ryanpinaap@gmail.com', '55754852365', '11910770845', 'senha123', null, '2025-05-13 08:43:58');
+(default, 1, 1, 'Ryan','ryanpinaap@gmail.com', 'senha123', null, '2025-05-13 08:43:58');
 
 CREATE TABLE resposta (
     fkUsuario INT,
     fkPergunta INT,
     descricao VARCHAR(45),
-    dtResposta DATETIME,
+    dtResposta DATETIME DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT pkCompostaResposta
     PRIMARY KEY (fkUsuario, fkPergunta),
     CONSTRAINT chkFkRespostaUsuario

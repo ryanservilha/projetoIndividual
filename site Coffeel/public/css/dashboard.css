@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #E1D6BB;
+    overflow-x: hidden;
 }
 
 .container {
@@ -30,7 +31,7 @@ body {
     align-self: flex-start;
     margin-left: 6.5%;
     width: 100%;
-    height: 0%;
+    height: 1.7%;
 }
 
 
@@ -73,10 +74,10 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 29%;    
+    height: 29%;
     justify-content: center;
     align-items: center;
-    gap: 6%;    
+    gap: 6%;
 }
 
 .card {
@@ -110,9 +111,16 @@ body {
     text-transform: uppercase;
 }
 
-#idadeMedia, #qtdEnvios, #mediaAcertos {
+#idadeMedia,
+#mediaAcertos {
     font-size: 37px;
 }
+
+#qtdEnvios {
+    text-align: center;
+    font-size: 30px;
+}
+
 #mediaAcertosCard {
     display: flex;
     flex-direction: column;
@@ -136,7 +144,7 @@ body {
 }
 
 .graficoEsquerdo {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 15px;
     width: 41%;
@@ -151,7 +159,7 @@ body {
     text-align: center;
 }
 
-.graficoEsquerdo canvas { 
+.graficoEsquerdo canvas {
     margin-top: 2%;
     margin-left: 4%;
     margin-right: 4%;
@@ -168,9 +176,9 @@ body {
     height: 100px;
 }
 
-#graficoCafeEssencial {
-    width: 10px;
-    height: 10px;
+#graficoCafeEssencial,
+#graficoTemperaturaCafe {
+    margin-bottom: 20%;
 }
 
 .graficosDireito {
@@ -202,14 +210,14 @@ body {
 
 .graficosPizza {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
     width: 100%;
     height: 50%;
     gap: 6%;
-} 
+}
 
 .graficosDireito .graficosPizza h2 {
-      text-align: center;
+    text-align: center;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: 650;
@@ -227,7 +235,8 @@ body {
     width: 80%;
 }
 
-.graficoCafeEssencial, .temperaturaCafe{
+.graficoCafeEssencial,
+.temperaturaCafe {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -235,3 +244,13 @@ body {
     border-radius: 15px;
 }
 
+.temperaturaCafe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperaturaCafe h2 {
+    text-align: center;
+    width: 80%;
+}

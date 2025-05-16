@@ -56,6 +56,17 @@ function graficoEssencial(req, res) {
     })
 }
 
+
+function graficoTemperaturaCafe(req, res) {
+    dashboardModel.graficoTemperaturaCafe().then(function (resultado) {
+        res.status(200).json(resultado);
+    }).catch(function (erro) {
+        res.status(500).json(erro.sqlMessage);
+    })
+}
+
+
+
 module.exports = {
     idadeMedia,
     cafeMaisConsumido,
@@ -63,5 +74,6 @@ module.exports = {
     mediaAcertos,
     graficoSemana,
     graficoAmbiente,
-    graficoEssencial
+    graficoEssencial,
+    graficoTemperaturaCafe
 }
