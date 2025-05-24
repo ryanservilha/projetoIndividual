@@ -70,3 +70,45 @@ CREATE TABLE resposta (
     FOREIGN KEY (fkPergunta)
     REFERENCES pergunta(idPergunta)
 );
+
+
+-- ---------------------- SELECTS -----------------------------------------
+
+-- Média da Idade dos consumidores
+SELECT ROUND(avg(descricao),0) AS IdadeMedia FROM resposta WHERE fkPergunta = 1;
+
+-- Tipo de café mais consumido
+SELECT descricao AS CafeMaisConsumido FROM resposta
+WHERE fkPergunta = 5 
+GROUP BY descricao
+ORDER BY COUNT(descricao) DESC LIMIT 1;    
+
+-- Maior motivador de consumo
+SELECT descricao AS Motivo FROM resposta
+WHERE fkPergunta = 8
+GROUP BY descricao
+ORDER BY COUNT(descricao) DESC LIMIT 1;
+
+-- Média de gasto por mês
+SELECT ROUND(AVG(descricao),2) AS Gasto FROM resposta
+WHERE fkPergunta = 7;
+
+-- Gráfico Acesso na semana
+select DATE_FORMAT(dtResposta, '%d/%m') AS Dia, COUNT(DISTINCT fkUsuario) AS Acessos from resposta
+GROUP BY DATE_FORMAT(dtResposta, '%d/%m')
+ORDER BY DATE_FORMAT(dtResposta, '%d/%m') DESC LIMIT 7;
+
+-- Ambiente onde é mais consumido café
+SELECT descricao AS Ambiente, COUNT(descricao) AS QtdAmbiente FROM resposta 
+WHERE fkPergunta = 3
+GROUP BY descricao;
+
+-- Gráfico café é essencial?
+SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
+WHERE fkPergunta = 2
+GROUP BY descricao;
+    
+-- Gráfico Temperatura Café
+SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
+WHERE fkPergunta = 6
+GROUP BY descricao;
