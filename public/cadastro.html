@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/cadastrar.css">
+    <script src="./js/sessao.js"></script>
+    <script src="js/acesso.js"></script>
+    <title>Cadastre-se</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <h1>C<img src="./assets/imgs/logo.png">FFEEL</h1>
+            </a>
+        </div>
+
+        <div class="painelCadastro">
+            <img src="./assets/imgs/aerial-view-fresh-coffee-cup.jpg">
+            <div class="itensCadastro">
+                <div class="titulo">
+                    <h1>Cadastre-se</h1>
+                    <p>e acesse o questionário</p>
+                </div>
+                <div class="inputs">
+                    <div class="inserirDados">
+                        <div class="input">
+                            <h2>Nome</h2>
+                            <input id="inpt_nomeCadastro" placeholder="Digite seu nome">
+                        </div>
+                        <div class="input">
+                            <h2>Email</h2>
+                            <input id="inpt_emailCadastro" placeholder="Digite seu email">
+                        </div>
+                    </div>
+                    <div class="inserirDados">
+                        <div class="input">
+                            <h2>Senha</h2>
+                            <input id="inpt_senhaCadastro" type="password" placeholder="Digite uma senha">
+                        </div>
+                        <div class="input">
+                            <h2>Confirmar Senha</h2>
+                            <input id="inpt_confirmeSenha" type="password" placeholder="Confirme a senha">
+                        </div>
+                    </div>
+                </div>
+                <div class="botao">
+                    <button class="btnCadastrarUsuario" onclick="cadastrar()">Cadastrar</button>
+
+                    <a href="login.html">Já tem cadastro?</a>
+                    <div id="div_aguardar" class="loading-div">
+                        <img src="./assets/circle-loading.gif" id="loading-gif" />
+                    </div>
+
+                    <div id="div_erros_login"></div>
+                </div>
+            </div>
+        </div>
+        <div class="alerta_erro">
+            <div class="card_erro" id="cardErro">
+                <span id="mensagem_erro"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

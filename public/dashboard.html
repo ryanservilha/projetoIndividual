@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <script src="js/dashboard.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Dashboard</title>
+</head>
+
+<body onload="obterDados()">
+    <div class="container">
+        <div class="logo">
+            <a href="index.html">
+                <h1>C<img src="./assets/imgs/logo.png">FFEEL</h1>
+            </a>
+        </div>
+        <div class="titulo">
+            <h2>Métricas Coffeel</h2>
+        </div>
+
+        <div class="containerKpisGraficos">
+            <div class="kpis">
+                <div class="card" id="mediaIdade">
+                    <h2>Média da Idade dos Consumidores</h2>
+                    <div class="resposta" id="idadeMedia"></div>
+                </div>
+
+                <div class="card">
+                    <h2>Tipo de Café mais consumido</h2>
+                    <div class="resposta" id="cafeMaisConsumido"></div>
+                </div>
+
+                <div class="card">
+                    <h2>Maior Motivação de Consumo</h2>
+                    <div class="resposta" id="qtdEnvios"></div>
+                </div>
+
+                <div class="card" id="mediaAcertosCard">
+                    <h2>Média de Gasto com Café por Mês</h2>
+                    <div class="resposta" id="mediaAcertos">R$</div>
+                </div>
+            </div>
+            <div class="graficos">
+                <div class="graficoEsquerdo">
+                    <h2>QTD de Respostas do questionário na semana</h2>
+                    <canvas id="myChartCanvas"></canvas>
+                </div>
+                <div class="graficosDireito">
+                    <div class="graficoCafeConsumido">
+                        <h2>Ambiente em que o café é consumido</h2>
+                        <canvas id="graficoCafeConsumido"></canvas>
+                    </div>
+                    <div class="graficosPizza">
+                        <div class="graficoCafeEssencial">
+                            <h2>O café é essencial na sua vida?</h2>
+                            <canvas id="graficoCafeEssencial"></canvas>
+                        </div>
+                        <div class="temperaturaCafe">
+                            <h2>Temperatura do café consumida:</h2>
+                            <canvas id="graficoTemperaturaCafe"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
