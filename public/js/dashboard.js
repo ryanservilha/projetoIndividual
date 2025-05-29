@@ -11,7 +11,7 @@ function obterDados() {
 
 
                 vt_idade = resposta;
-                idadeMedia.innerHTML = `${vt_idade[0].IdadeMedia}`;
+                idadeMedia.innerHTML = `${vt_idade[0].IdadeMedia} anos`;
             });
         } else {
             console.error('Nenhum dado encontrado ou erro na API');
@@ -68,7 +68,7 @@ function obterDados() {
 
 
                 vt_media = resposta;
-                mediaAcertos.innerHTML += `${vt_media[0].Gasto}`;
+                mediaAcertos.innerHTML += `R$${vt_media[0].Gasto}`;
             });
         } else {
             console.error('Nenhum dado encontrado ou erro na API');

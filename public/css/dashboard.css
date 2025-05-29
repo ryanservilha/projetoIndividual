@@ -114,6 +114,11 @@ body {
 #idadeMedia,
 #mediaAcertos {
     font-size: 37px;
+    text-transform: lowercase;
+}
+
+#mediaAcertos {
+    text-transform: uppercase;
 }
 
 #qtdEnvios {

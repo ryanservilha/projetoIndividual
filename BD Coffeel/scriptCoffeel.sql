@@ -53,9 +53,6 @@ CREATE TABLE usuario (
     REFERENCES quiz(idQuiz)
 );
 
-INSERT INTO usuario VALUES
-(default, 1, 1, 'Ryan','ryanpinaap@gmail.com', 'senha123', null, '2025-05-13 08:43:58');
-
 CREATE TABLE resposta (
     fkUsuario INT,
     fkPergunta INT,
@@ -71,44 +68,63 @@ CREATE TABLE resposta (
     REFERENCES pergunta(idPergunta)
 );
 
+CREATE TABLE pesquisaCoffeel (
+	idPesquisa INT PRIMARY KEY AUTO_INCREMENT,
+	data DATETIME DEFAULT CURRENT_TIMESTAMP,
+    nome VARCHAR(45),
+    idade INT,
+    essencial VARCHAR(45),
+    local VARCHAR(45),
+    xicaras INT,
+    tipo VARCHAR(45),
+    temperatura VARCHAR(45),
+    gasto INT,
+    motivo VARCHAR(45),
+    fkUsuario INT,
+    CONSTRAINT chkFkUsuario
+    FOREIGN KEY (fkUsuario)
+    REFERENCES usuario(idUsuario)
+);
 
 -- ---------------------- SELECTS -----------------------------------------
-
 -- Média da Idade dos consumidores
-SELECT ROUND(avg(descricao),0) AS IdadeMedia FROM resposta WHERE fkPergunta = 1;
+SELECT ROUND(avg(idade),0) AS IdadeMedia FROM pesquisaCoffeel;
 
 -- Tipo de café mais consumido
-SELECT descricao AS CafeMaisConsumido FROM resposta
-WHERE fkPergunta = 5 
-GROUP BY descricao
-ORDER BY COUNT(descricao) DESC LIMIT 1;    
+SELECT tipo AS CafeMaisConsumido FROM pesquisaCoffeel
+GROUP BY tipo
+ORDER BY COUNT(tipo) DESC LIMIT 1;    
 
 -- Maior motivador de consumo
-SELECT descricao AS Motivo FROM resposta
-WHERE fkPergunta = 8
-GROUP BY descricao
-ORDER BY COUNT(descricao) DESC LIMIT 1;
+SELECT motivo AS Motivo FROM pesquisaCoffeel
+GROUP BY motivo
+ORDER BY COUNT(motivo) DESC LIMIT 1;
 
 -- Média de gasto por mês
-SELECT ROUND(AVG(descricao),2) AS Gasto FROM resposta
-WHERE fkPergunta = 7;
+SELECT ROUND(AVG(gasto),2) AS Gasto FROM pesquisaCoffeel;
 
 -- Gráfico Acesso na semana
-select DATE_FORMAT(dtResposta, '%d/%m') AS Dia, COUNT(DISTINCT fkUsuario) AS Acessos from resposta
-GROUP BY DATE_FORMAT(dtResposta, '%d/%m')
-ORDER BY DATE_FORMAT(dtResposta, '%d/%m') DESC LIMIT 7;
+SELECT DATE_FORMAT(data, '%d/%m') AS Dia, COUNT(DISTINCT nome) AS Acessos from pesquisaCoffeel
+GROUP BY DATE_FORMAT(data, '%d/%m')
+ORDER BY DATE_FORMAT(data, '%d/%m') DESC LIMIT 7;
 
 -- Ambiente onde é mais consumido café
-SELECT descricao AS Ambiente, COUNT(descricao) AS QtdAmbiente FROM resposta 
-WHERE fkPergunta = 3
-GROUP BY descricao;
+SELECT local AS Ambiente, COUNT(local) AS QtdAmbiente FROM pesquisaCoffeel 
+GROUP BY local;
 
 -- Gráfico café é essencial?
-SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
-WHERE fkPergunta = 2
-GROUP BY descricao;
+SELECT essencial AS Descricao, count(essencial) AS Quantidade FROM pesquisaCoffeel
+GROUP BY essencial;
     
 -- Gráfico Temperatura Café
-SELECT descricao AS Descricao, count(descricao) AS Quantidade FROM resposta
-WHERE fkPergunta = 6
-GROUP BY descricao;
+SELECT temperatura AS Descricao, count(temperatura) AS Quantidade FROM pesquisaCoffeel
+GROUP BY temperatura;
+
+
+SELECT * FROM pesquisaCoffeel;
+
+INSERT INTO pesquisaCoffeel (nome, idade, essencial) values
+('Ryan', '18', 'Sim');
+
+select * from pesquisaCoffeel;
+

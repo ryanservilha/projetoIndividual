@@ -40,16 +40,10 @@ function enviar(idade, cafeEssencial, lugarConsumo, qtdXicaras, tipoCafe, temper
     console.log("ACESSEI O USUARIO MODEL \n \n\t\t >> Se aqui der erro de 'Error: connect ECONNREFUSED',\n \t\t >> verifique suas credenciais de acesso ao banco\n \t\t >> e se o servidor de seu BD está rodando corretamente. \n\n function cadastrar():", idade, cafeEssencial, lugarConsumo, qtdXicaras, tipoCafe, temperaturaCafe, gastoMensal, motivoConsumo, idUser);
 
     var instrucaoSql = `
-        INSERT INTO resposta (fkUsuario, fkPergunta, descricao) VALUES
-        ('${idUser}', 1, '${idade}'),
-        ('${idUser}', 2, '${cafeEssencial}'),
-        ('${idUser}', 3, '${lugarConsumo}'),
-        ('${idUser}', 4, '${qtdXicaras}'),
-        ('${idUser}', 5, '${tipoCafe}'),
-        ('${idUser}', 6, '${temperaturaCafe}'),
-        ('${idUser}', 7, '${gastoMensal}'),
-        ('${idUser}', 8, '${motivoConsumo}');
-    `;
+        INSERT INTO pesquisaCoffeel (idade, essencial, local, xicaras, tipo, temperatura, gasto, motivo, fkUsuario) VALUES
+        ('${idade}', '${cafeEssencial}', '${lugarConsumo}', '${qtdXicaras}', '${tipoCafe}', '${temperaturaCafe}', '${gastoMensal}',
+         '${motivoConsumo}', '${idUser}');`;
+         
     console.log("Executando a instrução SQL: \n" + instrucaoSql);
     return database.executar(instrucaoSql);
 

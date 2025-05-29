@@ -1,0 +1,226 @@
+data,nome,idade,essencial,local,xicaras,tipo,temperatura,gasto,motivo
+27/05/2025 18:01:46,,19,Sim,Casa,2/3,Coado,Quente,150,Energia/Disposição
+27/05/2025 18:01:59,,18,Sim,Casa,2 a 4,Outro,Quente,50,Sabor
+27/05/2025 18:02:04,,18,Não,Casa,1,Coado,Quente,50,Energia/Disposição
+27/05/2025 18:02:36,,18,Sim,Casa,2 grandes ,Expresso,Quente,não sei responder ,Energia/Disposição
+27/05/2025 18:05:05,,18,Sim,Casa,2,Coado,Quente,30 reais,Energia/Disposição
+27/05/2025 18:05:43,,18,Não,Casa,1,Solúvel,Quente,20,Energia/Disposição
+27/05/2025 18:14:20,,18,Sim,Casa,1,Coado,Quente,Não sei,Energia/Disposição
+27/05/2025 18:15:04,,19,Sim,Casa,2,Coado,Quente,30,Conforto Emocional
+"27/05/2025 18:17:47,,18 anos,Sim,Casa,Três xícaras.,Coado,Quente,""de 50 a 100 reais, gastando em cafeterias e no café em casa."",Conforto Emocional"
+"27/05/2025 18:18:09,,18,Sim,Casa,3,Coado,Quente,""R$60,00"",Energia/Disposição"
+27/05/2025 18:19:54,,18,Sim,Casa,Duas ,Expresso,Gelado,Nunca calculei,Energia/Disposição
+27/05/2025 18:21:09,,18,Sim,Trabalho,5,Coado,Quente,40 reais,Conforto Emocional
+27/05/2025 18:25:48,,18,Sim,Casa,1(café da manhã),Coado,Quente,Aproximadamente 100 reais,Energia/Disposição
+27/05/2025 18:26:02,,18,Sim,Casa,2,Coado,Quente,50 reais,Energia/Disposição
+27/05/2025 18:27:51,,19,Sim,Trabalho,1,Coado,Quente,0,Energia/Disposição
+"27/05/2025 18:29:01,,18,Não,Casa,Não tomo com frequência ,Outro,Quente,""R$10,00"",Experiências Sociais"
+27/05/2025 18:29:24,,19,Sim,Cafeterias,5,Expresso,Quente,10,Energia/Disposição
+"27/05/2025 18:30:21,,23 anos,Sim,Trabalho,2,Outro,Quente,""R$80,00"",Energia/Disposição"
+"27/05/2025 18:31:02,,19,Sim,Casa,3,Coado,Quente,""Eu não gasto nada, pq consumo dos outros "",Energia/Disposição"
+"27/05/2025 18:33:36,,23,Sim,Trabalho,4,Coado,Quente,""R$80,00"",Sabor"
+27/05/2025 18:36:45,,21,Não,Outro,2,Coado,Quente,Não sei,Energia/Disposição
+27/05/2025 18:37:49,,19,Sim,Casa,2,Coado,Quente,70,Conforto Emocional
+27/05/2025 18:38:24,,18,Sim,Casa,2,Expresso,Quente,45,Energia/Disposição
+27/05/2025 18:39:05,,27,Sim,Casa,4,Coado,Quente,100,Energia/Disposição
+27/05/2025 18:39:32,,32,Sim,Casa,5,Coado,Gelado,150,Energia/Disposição
+27/05/2025 18:40:26,,21,Sim,Casa,5,Coado,Quente,300,Conforto Emocional
+27/05/2025 18:44:15,,33,Sim,Casa,2,Coado,Quente,150,Experiências Sociais
+27/05/2025 18:46:06,,23,Não,Cafeterias,0,Expresso,Gelado,R$100,Conforto Emocional
+27/05/2025 18:47:01,,33,Sim,Casa,5 ou mais ,Coado,Quente,70 reias,Energia/Disposição
+27/05/2025 18:59:34,Rafael Vieira Lima ,20 anos,Não,Casa,1,Coado,Quente,0,Energia/Disposição
+27/05/2025 19:02:17,Maria do Socorro da Silva,48 anos,Sim,Casa,4 xícaras ,Coado,Quente,40 Reais ,Sabor
+27/05/2025 19:08:06,Maria Eduarda Fernandes Pinto,18,Sim,Casa,2,Coado,Quente,60 reais ,Sabor
+27/05/2025 19:10:43,Victtoria ,18,Não,Outro,0,Outro,Quente,0,Conforto Emocional
+"27/05/2025 19:11:44,Daniela Gomes ,18,Sim,Casa,De 3 a 4 ,Coado,Quente,""R$120,00"",Energia/Disposição"
+"27/05/2025 19:13:21,Josi Gomes ,44,Sim,Casa,De 5 a 6 xícaras ,Coado,Quente,""R$120,00"",Sabor"
+"27/05/2025 19:15:20,Daniel Carvalho ,49,Sim,Casa,De 4 a 5 xícaras ,Coado,Quente,""R$120,00"",Energia/Disposição"
+"27/05/2025 19:17:44,Victória Cristofolini,27,Sim,Casa,De 3 a 4,Coado,Quente,""R$ 100,00 a R$150,00"",Experiências Sociais"
+27/05/2025 19:22:43,Dislaine ,53,Sim,Trabalho,2,Expresso,Quente,60,Energia/Disposição
+27/05/2025 19:23:39,Bianca Pillon de Carvalho,36,Sim,Casa,3,Coado,Quente,150,Conforto Emocional
+27/05/2025 19:25:43,Suelen de Araujo Santos ,37,Sim,Trabalho,6,Coado,Quente,100,Conforto Emocional
+27/05/2025 19:28:44,Vanessa Aparecida de Souza Pinto ,44 anos ,Sim,Trabalho,3,Coado,Quente,40 reais ,Energia/Disposição
+"27/05/2025 19:29:59,Eric Ramon Montanhel ,41,Sim,Casa,8 a 10 pra mais ,Coado,Quente,""80,00 a 95,00"",Sabor"
+27/05/2025 19:30:33,Rodrigo Fróes Brandão ,39 anos,Sim,Trabalho,De 3 a 4 xícaras ,Expresso,Quente,Entre R$75 a R$100,Sabor
+27/05/2025 19:31:41,Maria rosa ,48anos,Sim,Casa,10 xícara ,Coado,Quente,70 reais ,Energia/Disposição
+"27/05/2025 19:31:47,Eric Ramon Montanhel ,41,Sim,Casa,8 a 12 ,Coado,Quente,""80,00 a 95,00"",Sabor"
+"27/05/2025 19:33:03,Janaína Guimarães ,42 anos ,Sim,Casa,4 xícaras ,Coado,Quente,""R$60,00"",Sabor"
+27/05/2025 19:33:48,Alex da Silva Sa ,51 anos,Sim,Trabalho,4,Coado,Quente,R$60,Energia/Disposição
+27/05/2025 19:35:45,Clarice,70 anos,Sim,Casa,2,Coado,Quente,120,Sabor
+"27/05/2025 19:36:16,Mariana,17 anos,Sim,Casa,1,Coado,Quente,""R$60,00"",Sabor"
+27/05/2025 19:40:09,Arthur ,19,Não,Trabalho,Atualmente nenhuma xícara ,Coado,Quente,0,Sabor
+"27/05/2025 19:40:46,Leonardo,18,Sim,Casa,2,Coado,Quente,""R$ 100,00 por mês"",Conforto Emocional"
+27/05/2025 19:43:11,Rafael Fratini,17,Não,Trabalho,1,Coado,Quente,100 reais ,Energia/Disposição
+27/05/2025 19:43:16,Luciana Leone,51 anos,Sim,Casa,Umas 6 xicaras,Coado,Quente,50,Conforto Emocional
+27/05/2025 19:48:28,Catia Melo,43,Sim,Casa,3 ou 4,Coado,Quente,Cerca de 80 reais aproximadamente ,Sabor
+27/05/2025 19:49:06,Felipe Ferraz ,17,Não,Casa,0/1,Expresso,Quente,0,Sabor
+27/05/2025 19:52:47,Gislayne ,37,Sim,Trabalho,4 a 5,Coado,Quente,40,Conforto Emocional
+27/05/2025 19:55:28,Kleriston Sandro de Magalhães,35,Sim,Casa,2,Coado,Quente,50,Energia/Disposição
+27/05/2025 19:56:42,Adriana Aparecida Santana Hilario ,49,Sim,Casa,3,Coado,Quente,60,Conforto Emocional
+27/05/2025 19:57:36,lorenzo ,18,Não,Casa,1,Coado,Quente,60,Energia/Disposição
+27/05/2025 19:58:19,Hugo Carvalho,21,Sim,Trabalho,4,Coado,Quente,50,Energia/Disposição
+27/05/2025 20:02:04,Marco Vinicius,22,Sim,Casa,2,Coado,Quente,60$,Sabor
+27/05/2025 20:07:21,Clara ,17 anos ,Sim,Trabalho,3,Coado,Quente,60,Sabor
+"27/05/2025 20:08:08,Débora Guilarducci ,46 anos ,Sim,Casa,2,Outro,Quente,""Compro cápsulas, uma média de 45 reais no mês "",Energia/Disposição"
+"27/05/2025 20:10:27,Renan ,20,Não,Outro,""0,01 (se eu tomar café 3 vezes no ano é muito)"",Expresso,Quente,0,Energia/Disposição"
+"27/05/2025 20:19:29,Márcio Alexandre Servilha ,47 anos ,Sim,Cafeterias,4,Coado,Quente,""R$100,00"",Sabor"
+"27/05/2025 20:21:24,Márcia Castucci,60 anos,Sim,Casa,03,Coado,Quente,""R$ 30,00 +/-"",Sabor"
+27/05/2025 20:24:58,Gustavo,45,Sim,Casa,4,Coado,Quente,40.00,Sabor
+27/05/2025 20:27:12,Ângela Bet Capellari ,20,Sim,Trabalho,2,Coado,Quente,20,Energia/Disposição
+27/05/2025 20:27:16,Eduardo Battistini ,46,Sim,Trabalho,4,Coado,Quente,100,Sabor
+27/05/2025 20:29:26,Ursula Betina Bethke Servilha ,68,Sim,Trabalho,4,Coado,Quente,80,Sabor
+27/05/2025 20:30:09,João Pedro ,21,Sim,Casa,2,Expresso,Quente,30,Conforto Emocional
+27/05/2025 20:30:21,Giovanna ,21,Não,Casa,1,Coado,Quente,R$15,Energia/Disposição
+27/05/2025 20:32:55,Denise Chavier ,47,Sim,Casa,5,Coado,Quente,150,Energia/Disposição
+"27/05/2025 20:33:58,Matheus Souza,18,Sim,Casa,Duas,Solúvel,Quente,""Não sei, acho que R$200"",Sabor"
+27/05/2025 20:36:41,Manuela Miyuki,18,Não,Casa,2/3,Outro,Quente,100,Sabor
+27/05/2025 20:38:03,Gustavo Barcelos,18,Sim,Casa,1,Coado,Quente,40R$,Conforto Emocional
+27/05/2025 20:51:28,Maria miriam dos santos silva,43 anos,Sim,Casa,De 03 à 04,Coado,Quente,70 reais ,Sabor
+27/05/2025 20:55:26,Marilia Toscano,20,Sim,Casa,2,Outro,Quente,20 reais,Energia/Disposição
+27/05/2025 21:02:21,Rayssa ,34,Não,Trabalho,3,Expresso,Quente,50,Energia/Disposição
+27/05/2025 21:08:24,Shayane ,35,Sim,Cafeterias,6,Expresso,Quente,2350,Conforto Emocional
+27/05/2025 21:12:19,Isabelly ,18,Sim,Casa,4,Coado,Quente,Sei não,Conforto Emocional
+27/05/2025 21:35:31,Cesar Pinesi Russo,18,Sim,Casa,5,Expresso,Quente,300,Energia/Disposição
+"27/05/2025 21:36:39,Fernando,18,Não,Outro,""Eu tomo apenas na casa da minha vó, eu vou visitar ele por um mês, então a média seria de 11 em 11 meses "",Coado,Quente,""Se dividir 1 mês de café para o ano todo da em torno de uns R$2,50 por mês mais ou menos"",Sabor"
+"27/05/2025 21:51:50,Ana Luiza,20,Sim,Casa,1,Solúvel,Quente,""R$30,00"",Conforto Emocional"
+27/05/2025 22:18:55,Bruno,22,Sim,Casa,2,Coado,Quente,50,Energia/Disposição
+27/05/2025 22:26:25,Paola,21,Não,Casa,1 ou 2,Coado,Quente,pelo menos uns 70 reais,Sabor
+27/05/2025 22:30:35,Sara Duarte,18,Sim,Casa,4,Coado,Quente,70 até 80,Conforto Emocional
+"27/05/2025 22:42:26,Isabella Almeida de Freitas ,18,Sim,Casa,1,Coado,Quente,""R$50,00"",Experiências Sociais"
+27/05/2025 23:03:10,Kamilly Lopes ,19,Sim,Casa,1,Coado,Quente,25,Conforto Emocional
+27/05/2025 23:17:36,Guilherme Gonçalves Silva Santos ,20,Sim,Casa,5,Expresso,Quente,200,Conforto Emocional
+27/05/2025 23:22:12,Gabriel Furtado ,18 anos,Sim,Trabalho,Uma ,Coado,Quente,10 a 20 reais ,Sabor
+27/05/2025 23:31:59,Patricia Batista Borges,19,Não,Outro,0,Outro,Quente,0,Experiências Sociais
+27/05/2025 23:40:42,Giovanna Freitas,22,Sim,Casa,3,Coado,Quente,60,Energia/Disposição
+28/05/2025 07:00:30,Marluce oliveira dos Santos volvov ,63,Sim,Casa,2,Coado,Quente,500 gramas ,Energia/Disposição
+28/05/2025 07:13:18,Cláudio Frizzarini,64,Sim,Trabalho,3,Expresso,Quente,160,Sabor
+28/05/2025 07:37:37,Sergio Luiz Pacini ,57,Não,Trabalho,2,Coado,Quente,400.00,Sabor
+28/05/2025 09:00:20,Manuela ,12,Não,Casa,Uma no máximo ,Coado,Quente,N sou eu q compro ,Energia/Disposição
+28/05/2025 09:19:18,Vivian Silva,41,Sim,Casa,4,Coado,Quente,100,Sabor
+28/05/2025 09:22:51,Joao,49,Não,Casa,1,Coado,Quente,35,Energia/Disposição
+28/05/2025 09:47:55,Leonardo,47,Sim,Casa,3,Coado,Quente,150,Sabor
+"28/05/2025 11:03:36,Emanuelly Almeida de Freitas ,16,Sim,Casa,1,Coado,Quente,""R$50,00"",Sabor"
+28/05/2025 11:17:38,Evonaldo santos ,31,Sim,Casa,6,Coado,Quente,60,Energia/Disposição
+28/05/2025 11:19:48,Matheus jeveaux ,23,Não,Trabalho,No máximo 2 ,Solúvel,Quente,0 reais ,Energia/Disposição
+28/05/2025 11:20:39,Roseli Cristina ,48,Sim,Casa,3,Coado,Quente,35,Conforto Emocional
+28/05/2025 11:22:46,Edvania Alves Pereira ,54,Sim,Casa,Até 3 xicaras,Coado,Quente,60,Energia/Disposição
+28/05/2025 11:23:18,Leandro Luiz genari ,43,Sim,Trabalho,4,Coado,Quente,90 reais ,Sabor
+"28/05/2025 11:26:00,Rosangela Maria chica ,62,Sim,Casa,4 xicaras,Coado,Quente,""$ 90,00"",Energia/Disposição"
+28/05/2025 11:27:38,Yolanda,28,Sim,Casa,2 ou 3,Coado,Quente,80$,Conforto Emocional
+"28/05/2025 11:27:51,Raniele Gonçalves ,39 anos ,Sim,Cafeterias,Uma ,Coado,Quente,""R$300,00"",Conforto Emocional"
+28/05/2025 11:28:08,Elaine Cristina de Souza ,58,Sim,Casa,1 xicara,Coado,Quente,R$ 60.00,Sabor
+28/05/2025 11:28:24,Elaine,50,Sim,Trabalho,04,Coado,Quente,150,Sabor
+28/05/2025 11:29:12, Bruno Coelho,42,Não,Outro,0,Outro,Quente,R$0,Experiências Sociais
+28/05/2025 11:30:24,Fernando Santos ,47,Sim,Casa,250 ml,Coado,Quente,20,Sabor
+28/05/2025 11:31:13,Ricardo,39,Sim,Casa,2,Coado,Quente,25,Energia/Disposição
+28/05/2025 11:31:54,Hugo Henrique Silva ,37,Sim,Casa,2,Coado,Quente,80,Conforto Emocional
+28/05/2025 11:33:11,Guilherme Lima ,41,Não,Casa,1,Coado,Quente,200,Sabor
+28/05/2025 11:33:48,José Aparecido da Silva ,57 anos,Não,Trabalho,2,Coado,Quente,50,Experiências Sociais
+28/05/2025 11:33:56,Simone Matos,46,Sim,Casa,02,Coado,Quente,90,Energia/Disposição
+28/05/2025 11:37:36,Cacilda Prado,47,Sim,Trabalho,Entre 5 ou 6,Coado,Quente,100,Energia/Disposição
+28/05/2025 11:40:07,Edinho Montemor ,69,Sim,Outro,4/5,Expresso,Quente,200,Sabor
+28/05/2025 11:41:43,Melsa Aparecida mendes ,Sbc,Sim,Cafeterias,2,Coado,Quente,10,Energia/Disposição
+28/05/2025 11:42:12,Mayara,28,Sim,Casa,2,Outro,Quente,20,Energia/Disposição
+28/05/2025 11:44:26,Rosimeire dos Santos ,47,Sim,Casa,3 xicaras ,Coado,Quente,R$120 reais mais ou menos,Conforto Emocional
+28/05/2025 11:45:36,Jacqueline Ferraz ,44,Sim,Casa,4,Coado,Quente,100,Sabor
+28/05/2025 11:46:44,Baptista,47,Sim,Cafeterias,3,Expresso,Quente,R$300,Conforto Emocional
+28/05/2025 11:48:19,Andréa ,58,Sim,Outro,15,Coado,Quente,100,Sabor
+28/05/2025 11:48:24,Fernando ,37,Sim,Casa,1,Coado,Quente,30,Conforto Emocional
+28/05/2025 11:51:01,Vili,48,Sim,Casa,8,Coado,Quente,R$80.00,Energia/Disposição
+28/05/2025 11:51:06,André ,46,Sim,Trabalho,6,Coado,Quente,80,Energia/Disposição
+28/05/2025 11:51:17,Valdemir Galdeano ,57,Sim,Trabalho,6,Coado,Quente,100,Sabor
+28/05/2025 11:51:30,José vilas boas barbosa ,67,Não,Trabalho,4,Coado,Quente,80.00,Energia/Disposição
+28/05/2025 11:52:23,Mauro Valeri,61,Sim,Trabalho,4,Expresso,Quente,300,Sabor
+28/05/2025 11:54:01,Maria Goreti de Souza Fonseca karavisch ,65,Não,Casa,1,Solúvel,Quente,30,Experiências Sociais
+"28/05/2025 11:55:57,Joanezia,49,Sim,Casa,1 xícara grande e bem cheia,Coado,Quente,""$100,00"",Sabor"
+28/05/2025 11:56:34,Edi,46,Sim,Casa,8,Coado,Quente,50,Sabor
+28/05/2025 11:56:55,Junior ,Santo André ,Sim,Casa,5,Coado,Quente,70 reais,Sabor
+28/05/2025 11:59:16,Adeir Carvalho ,57,Sim,Trabalho,03,Coado,Quente,50,Sabor
+"28/05/2025 11:59:22,Célia Maria Pereira Ferreira ,62 anos ,Sim,Casa,Duas,Coado,Quente,""R$90,00"",Sabor"
+"28/05/2025 11:59:49,Marcos ,49,Sim,Casa,2,Coado,Gelado,""R$200,00"",Sabor"
+28/05/2025 12:01:13,Aparecida Rosa Martins,49,Sim,Casa,1,Coado,Quente,80,Sabor
+28/05/2025 12:01:19,Isabel Rosana,49,Sim,Casa,4,Coado,Quente,120,Energia/Disposição
+28/05/2025 12:02:06,Luciano Leite Katona ,47,Sim,Casa,5,Coado,Quente,40 reais ,Sabor
+28/05/2025 12:02:36,Amanda Marson de Carvalho Bertelli ,36,Sim,Trabalho,2,Coado,Quente,50,Energia/Disposição
+28/05/2025 12:03:14,Angélica Hernandes Rossignoli Boracini ,47,Sim,Trabalho,2,Solúvel,Quente,Não sei,Sabor
+"28/05/2025 12:03:34,Samuel Vieira Martins ,18,Sim,Outro,1,Coado,Quente,""R$80,00"",Sabor"
+"28/05/2025 12:04:02,Solange Nicola de Paula ,50 anos,Sim,Casa,2 xícaras ,Solúvel,Quente,""R$20,00"",Conforto Emocional"
+28/05/2025 12:04:23,Fernanda,40,Não,Outro,0,Outro,Quente,0,Energia/Disposição
+28/05/2025 12:06:23,Rosana ,59,Sim,Casa,1,Coado,Quente,50,Energia/Disposição
+"28/05/2025 12:06:39,Rogério,45,Não,Casa,""0,1"",Coado,Quente,R$0,Experiências Sociais"
+28/05/2025 12:08:44,Samuel Silva dos Santos ,42,Sim,Casa,4 a 5,Coado,Quente,90.00,Sabor
+28/05/2025 12:09:16,EUCLIDES VALDOSKI RAMOS ,59,Sim,Trabalho,6,Coado,Quente,200,Sabor
+28/05/2025 12:10:17,Beatriz,16,Não,Casa,1,Expresso,Gelado,100 reais ,Sabor
+28/05/2025 12:10:41,Marisezio santana de souza,51,Sim,Casa,4 a 6,Coado,Quente,100,Energia/Disposição
+28/05/2025 12:11:09,Lélis Rocha,49,Não,Outro,Nenhuma,Outro,Quente,Nada,Experiências Sociais
+28/05/2025 12:11:16,Laércio Ribeiro Machado ,67,Sim,Cafeterias,06,Expresso,Quente,200 reais,Sabor
+28/05/2025 12:11:58,Wesley,27,Não,Trabalho,2,Coado,Quente,60,Energia/Disposição
+28/05/2025 12:13:06,Alessandra Olimpio,54,Sim,Casa,1,Coado,Quente,60,Sabor
+28/05/2025 12:14:25,vanderlan,58,Sim,Trabalho,06,Coado,Quente,100 reais,Sabor
+28/05/2025 12:15:05,Vanessa Maciel,45,Sim,Casa,8 a 10,Coado,Quente,60 reais,Sabor
+"28/05/2025 12:15:08,Cesar,46,Sim,Trabalho,3,Expresso,Quente,""R$40,00"",Experiências Sociais"
+28/05/2025 12:15:44,Nelma ,48,Sim,Casa,Umas 4/5,Coado,Quente,50.00,Energia/Disposição
+28/05/2025 12:15:48,Keiti ,50,Sim,Outro,10,Expresso,Quente,400,Sabor
+28/05/2025 12:16:34,Ricardo Barbosa Granado,54,Sim,Cafeterias,Varias,Expresso,Quente,com o preço do cafe Lascou,Sabor
+28/05/2025 12:18:50,Ana maria da rocha , Londrina PR ,Sim,Casa,4,Coado,Quente,100,Energia/Disposição
+28/05/2025 12:20:05,Giovana Morais ,31,Sim,Casa,2,Solúvel,Quente,60,Energia/Disposição
+28/05/2025 12:21:08,Regina Célia Vieira ,63,Sim,Casa,4,Coado,Quente,50,Sabor
+28/05/2025 12:22:10,Sonia ,65,Sim,Casa,3,Coado,Quente,60,Energia/Disposição
+28/05/2025 12:23:22,Renata Gonçalves Pereira ,43,Não,Trabalho,3,Coado,Quente,30,Experiências Sociais
+28/05/2025 12:24:05,Ana Paula Pacheco,26,Sim,Casa,2,Coado,Quente,150,Sabor
+28/05/2025 12:25:39,Rafael Botelho,38,Sim,Trabalho,3,Expresso,Quente,120,Energia/Disposição
+28/05/2025 12:27:24,Thiago da Silva Pupo ,39,Sim,Casa,2,Solúvel,Quente,60,Sabor
+28/05/2025 12:27:57,Daniel Lopes ,48,Sim,Trabalho,6,Coado,Quente,150,Energia/Disposição
+28/05/2025 12:28:01,Sandro urdonho sinesio,55 anos ,Não,Trabalho,2 vezes ao dia ,Coado,Quente,60 reais ,Sabor
+28/05/2025 12:29:13,Silvana ,47 anos,Sim,Casa,8,Coado,Quente,R$200,Sabor
+28/05/2025 12:30:48,Alessandra ,32,Sim,Casa,2,Coado,Quente,30,Energia/Disposição
+"28/05/2025 12:30:59,Stefane Mendes,23,Não,Trabalho,2 dedinhos ,Coado,Quente,""Somente o pó que levo para serviço, mas só tomo às vezes não são todos os dias não "",Energia/Disposição"
+28/05/2025 12:31:39,Fátima ,65,Sim,Casa,20,Coado,Quente,50,Sabor
+28/05/2025 12:31:42,Renan,27,Não,Trabalho,1,Coado,Quente,0,Energia/Disposição
+28/05/2025 12:35:08,Silvio Marmo,60,Sim,Casa,2,Coado,Quente,30,Conforto Emocional
+28/05/2025 12:37:19,Moacir Paulo dos Santos ,59,Não,Outro,Não tomo café ,Outro,Gelado,Nada ,Experiências Sociais
+28/05/2025 12:39:15,Adriana ,41,Sim,Casa,Umas 6,Coado,Quente,60,Sabor
+28/05/2025 12:40:47,Theresa,47,Sim,Casa,Uma,Expresso,Quente,40  reais,Conforto Emocional
+"28/05/2025 12:41:11,Gilberto Marson ,71,Sim,Casa,2,Coado,Quente,""30,00 a 40,00"",Sabor"
+28/05/2025 12:42:12,Marcia,45 anos ,Sim,Trabalho,Seis ,Coado,Quente,Kkk 250 ,Sabor
+28/05/2025 12:43:26,Wesley Pires ,37,Não,Casa,1 xícara ,Coado,Quente,60 reias ,Sabor
+28/05/2025 12:43:46,Edson Suterio,71 anos,Sim,Casa,Tomo uma 4 xicaras,Coado,Quente,Um kg mes,Sabor
+28/05/2025 12:45:45,Eloah,17,Não,Casa,1,Coado,Quente,Não sei a média. Mas pouco,Sabor
+28/05/2025 12:52:37,Carol,29,Sim,Casa,2 a 3,Coado,Quente,70,Sabor
+"28/05/2025 12:55:43,Alexandre da Silva ,45,Não,Casa,""Menos de uma vez por dia, em média"",Coado,Quente,0,Sabor"
+28/05/2025 12:56:37,Sophia Vieira ,19,Não,Outro,0,Outro,Quente,0,Energia/Disposição
+"28/05/2025 12:59:06,Andreia,49,Sim,Casa,""10,12"",Coado,Quente,180 reais,Sabor"
+28/05/2025 13:02:16,Cleusa Rodrigues ,47,Sim,Casa,6 xícaras ,Coado,Quente,120reais,Conforto Emocional
+28/05/2025 13:14:54,Renato Aoyama Fernandez ,40,Sim,Trabalho,2,Coado,Quente,30 reais,Energia/Disposição
+28/05/2025 13:31:04,Rubens ,51,Sim,Casa,5,Coado,Quente,80 reais,Sabor
+28/05/2025 13:34:50,Fabiano Aparecido Alves,49,Sim,Casa,6,Coado,Quente,30.00,Energia/Disposição
+"28/05/2025 13:47:38,Claudinei,57,Sim,Casa,4 xícaras ,Expresso,Quente,""R$200,00"",Sabor"
+28/05/2025 13:54:59,Maria José de Carvalho,56,Sim,Casa,3 a 4 xícaras por dia ,Coado,Quente,2 pacotes ,Sabor
+28/05/2025 13:57:56,Vinicius Rossignoli,22,Sim,Trabalho,4,Expresso,Quente,100,Energia/Disposição
+28/05/2025 14:01:13,Sandra ,43,Sim,Casa,Meia xícara ,Solúvel,Quente,22,Sabor
+28/05/2025 14:25:03,Fernando Thomazini ,42 anos ,Sim,Casa,8,Coado,Quente,R$ 400.00,Conforto Emocional
+28/05/2025 14:27:42,Valter Dias,70,Sim,Casa,5,Coado,Quente,60,Energia/Disposição
+28/05/2025 14:27:53,Fernanda,Não se aplica.,Não,Cafeterias,1,Outro,Gelado,Entre R$ 20 e R$ 200,Experiências Sociais
+28/05/2025 14:32:15,Hamilton ,54,Não,Casa,1,Coado,Quente,20 reais ,Sabor
+28/05/2025 14:37:58,Gislene Rodrigues dos Santos Cardoso ,45,Sim,Casa,1 xícara pela manhã ,Coado,Quente,50,Sabor
+28/05/2025 14:39:20,Edineide Ferreira ,50 anos ,Sim,Trabalho,De 3 a 4 xícaras ,Coado,Quente,Em média uns 90 reais ,Energia/Disposição
+28/05/2025 14:47:29,Ademir,72,Sim,Casa,Uns 5 a 6,Expresso,Quente,Uns 250 reais ,Conforto Emocional
+28/05/2025 14:53:32,Heliomar ,47,Sim,Trabalho,5,Coado,Quente,80 reais ,Experiências Sociais
+28/05/2025 14:59:57,Mario,58,Sim,Casa,2,Coado,Quente,70,Conforto Emocional
+28/05/2025 15:05:11,Sara Bebiano de moraes,46,Sim,Casa,Uns quatro cafés ,Coado,Quente,No preço atual uns sessenta reais,Energia/Disposição
+"28/05/2025 15:15:09,Marinalva,73,Sim,Casa,Duas,Coado,Quente,""R$45,00"",Sabor"
+28/05/2025 15:23:04,Milena,44,Sim,Casa,Três ,Coado,Quente,35 reais ,Energia/Disposição
+28/05/2025 15:44:00,Ana Maria Dalla Pietra,67,Não,Casa,2,Outro,Quente,40,Conforto Emocional
+28/05/2025 16:05:22,Gilberto ,43,Sim,Casa,7,Coado,Quente,80,Conforto Emocional
+28/05/2025 16:09:59,Andrea,51,Sim,Casa,2,Coado,Quente,50,Conforto Emocional
+28/05/2025 16:11:54,Thiago,40,Não,Trabalho,2,Coado,Quente,20 reis ,Energia/Disposição
+28/05/2025 16:20:22,Luciano eber ,58,Sim,Casa,02,Expresso,Quente,120,Sabor
+28/05/2025 16:22:47,Yeda Maria Ribeiro ,43,Não,Cafeterias,Uma,Coado,Quente,Em média de R$38 a R$42,Sabor
+28/05/2025 16:34:55,Roseli Ilza Bento ,58 anos ,Sim,Trabalho,4 xícaras ,Coado,Quente,62 reais ,Conforto Emocional
+28/05/2025 16:38:05,ANITA APARECIDA DA CRUZ ,46,Sim,Outro,1 litro,Coado,Quente,60,Energia/Disposição
+28/05/2025 16:46:10,Neusa Roncoli Boton ,80 anos ,Sim,Casa,2,Coado,Quente,60 reais ,Energia/Disposição
+28/05/2025 16:46:43,Tatiane ,38,Sim,Casa,3 a 4,Coado,Quente,60,Energia/Disposição
+28/05/2025 16:48:47,Mauricio Soares Jr.,51,Sim,Trabalho,3,Expresso,Quente,50,Sabor
+"28/05/2025 17:02:21,Júlia Araripe,Não se aplica,Não,Trabalho,""Mínimo 0, máximo 1 por dia"",Solúvel,Quente,R$50,Energia/Disposição"
+28/05/2025 17:04:49,Rita dr cassia carlet,Sbcampo,Sim,Casa,46 4,Expresso,Quente,46,Sabor
+28/05/2025 17:12:49,Nilza Camila ,53 anos ,Sim,Trabalho,6,Coado,Quente,160,Energia/Disposição
