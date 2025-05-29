@@ -117,7 +117,7 @@ function proximaPergunta() {
 var vtresposta = [];
 
 function enviar() {
-    if (idadeUsuario > 27) {
+    if (idadeUsuario > 18) {
         qtdPontos = qtdPontos + 3;
     }
     else {
@@ -159,9 +159,6 @@ function enviar() {
         qtdPontos = qtdPontos + 1;
     }
 
-
-
-
     var idUser = sessionStorage.ID_USUARIO;
 
     fetch("/usuarios/enviar", {
@@ -192,17 +189,22 @@ function enviar() {
 
     alert('Questionário enviado!');
 
-    vt_foto = ['<img src=\"./assets/imgs/irishCoffee.jpg\">', 'Irish Coffee', '<img src=\"./assets/imgs/melita.jpg\">', 'Café Mellita'];
-    
+    vt_foto = ['<img src=\"./assets/imgs/irishCoffee.jpg\">', 'Irish Coffee', '<img src=\"./assets/imgs/melita.jpg\">', 'Café Mellita',
+         '<img src=\"./assets/imgs/expressao.JPG\">', 'Café Expresso'];
+
     recomendacaoCafe.style.display = "block";
-    
+
     if (qtdPontos <= 9) {
         imagem.innerHTML = `${vt_foto[2]}`;
         nomeCafe.innerHTML = `<h2>${vt_foto[3]}</h2>`;
     }
-    else if (qtdPontos > 9) {
+    else if (qtdPontos > 9 && idadeUsuario >= 25) {
         imagem.innerHTML = `${vt_foto[0]}`;
         nomeCafe.innerHTML = `<h2>${vt_foto[1]}</h2>`;
+    }
+    else if (qtdPontos > 9) {
+        imagem.innerHTML = `${vt_foto[4]}`;
+        nomeCafe.innerHTML = `<h2>${vt_foto[5]}</h2>`;
     }
 
 

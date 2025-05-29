@@ -363,10 +363,11 @@ html {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .botaoQuestionario:hover {
-    box-shadow: 0 1px 5px #ffa10982;
+    box-shadow: 0 2px 20px #42280082;
     transform: scale(1.01);
 }
 

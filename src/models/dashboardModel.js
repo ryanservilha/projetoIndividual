@@ -35,7 +35,7 @@ function mediaAcertos() {
 }
 
 function graficoSemana() {
-    var instrucaoSql = `SELECT DATE_FORMAT(data, '%d/%m') AS Dia, COUNT(DISTINCT nome) AS Acessos from pesquisaCoffeel
+    var instrucaoSql = `SELECT DATE_FORMAT(data, '%d/%m') AS Dia, COUNT(*) AS Acessos from pesquisaCoffeel
     GROUP BY DATE_FORMAT(data, '%d/%m')
     ORDER BY DATE_FORMAT(data, '%d/%m') DESC LIMIT 7;`;
 
