@@ -595,3 +595,8 @@ html {
     color: white;
     font-weight: 500;
 }
+
+
+.navbar-scrolled { 
+  color: red;
+}

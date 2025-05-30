@@ -11,7 +11,7 @@
 <body>
     <section class="home">
         <div class="container">
-            <div class="navbar">
+            <div class="navbar" id="navbar">
                 <div class="logo">
                     <h1>C<img src="./assets/imgs/logo.png">FFEEL</h1>
                 </div>
@@ -19,16 +19,16 @@
                 <div class="links">
                     <ul class="itens">
                         <a href="#beneficios">
-                            <li>Benefícios</li>
+                            <li class="item">Benefícios</li>
                         </a>
                         <a href="#relacoes">
-                            <li>Relações</li>
+                            <li class="item">Relações</li>
                         </a>
                         <a href="#formas">
-                            <li>TIPOS</li>
+                            <li class="item">TIPOS</li>
                         </a>
                         <a href="#conexao">
-                            <li>Conexão</li>
+                            <li class="item">Conexão</li>
                         </a>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
             </div>
         </div>
     </section>
-    <section class="beneficios" id="beneficios">
+    <section class="beneficios" id="beneficios" onmousemove="myMoveFunction()">
         <div class="containerBeneficios">
             <h1>Benefícios</h1>
             <div class="cards">
@@ -127,12 +127,16 @@
                 </div>
                 <div class="conteudoTexto">
                     <h1>Socialmente</h1>
-                    <p>O café é muito mais que uma simples bebida — é um gesto de <b>cuidado</b> e <b>acolhimento</b> que conforta o
+                    <p>O café é muito mais que uma simples bebida — é um gesto de <b>cuidado</b> e <b>acolhimento</b>
+                        que conforta o
                         corpo e a alma. Em meio à correria do dia a dia, uma xícara de café oferece uma pausa, um
-                        convite para desacelerar e estar presente. <b>Compartilhar</b> esse momento vai além do ato de beber: é
-                        uma chance de se conectar, ouvir com atenção e <b>dividir sentimentos</b>. O café acompanha conversas,
+                        convite para desacelerar e estar presente. <b>Compartilhar</b> esse momento vai além do ato de
+                        beber: é
+                        uma chance de se conectar, ouvir com atenção e <b>dividir sentimentos</b>. O café acompanha
+                        conversas,
                         risadas, desabafos e até os silêncios que dizem mais que palavras. Esses encontros, regados a
-                        café, <b>criam laços</b> afetivos e transformam momentos simples em lembranças que <b>aquecem o coração</b>.
+                        café, <b>criam laços</b> afetivos e transformam momentos simples em lembranças que <b>aquecem o
+                            coração</b>.
                         No fundo, o café é sobre cuidar, acolher e fortalecer os vínculos que tornam nossas relações
                         mais humanas.
                     </p>
@@ -215,7 +219,8 @@
                 </div>
                 <div class="textoConexao">
                     <h2>Ryan Patric</h2>
-                    <p>"Quando tomo uma xícara de café me sinto conectado com quem realmente sou. Sinto um impulso de iniciativa, movimento, me sito vivo.”</p>
+                    <p>"Quando tomo uma xícara de café me sinto conectado com quem realmente sou. Sinto um impulso de
+                        iniciativa, movimento, me sito vivo.”</p>
                     <div class="btnDashboard">
                         <a href="dashboard.html">DASHBOARD</a>
                     </div>
@@ -223,7 +228,7 @@
             </div>
         </div>
     </section>
-
+    <script src="js/index.js"></script>
 </body>
 
 </html>
