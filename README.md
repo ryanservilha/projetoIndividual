@@ -18,7 +18,7 @@ adotarem o hábito do consumo dela</p>
 </p>
 
 ## Site Institucional
-Visite o site institucional para conhecemar mais sobre o café, benefícios e como a minha interface pode transformar a sua perspectiva da bebida.
+Visite o site institucional para conhecer mais sobre o café, benefícios e como a minha interface pode transformar a sua perspectiva da bebida.
 ![CAPSITE](https://github.com/user-attachments/assets/6b20280e-782f-4f67-8543-974eef2a5223)
 
 ## Quiz
